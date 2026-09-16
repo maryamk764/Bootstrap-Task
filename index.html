@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
+    <style>
+        .payimage {
+
+            background-image: url(images/visacard1.jpg);
+            background-size: cover;
+        }
+
+        .greenbutton {
+            background-color: #00b34f;
+
+        }
+
+
+        .payimg {
+
+            font-size: 44px;
+
+        }
+
+        .formwidth {
+
+            align-items: center;
+            width: 700px;
+            margin-top: 50px;
+            border-radius: 8px;
+            padding: 25px;
+        }
+
+        .textdeco {
+
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body class="payimage">
+
+    <header></header>
+    <main>
+        <div class="container  bg-white formwidth">
+            <div class="text-center">
+                <h2>Settings </h2>
+                <p class="fw-bold">payment</p>
+            </div>
+
+            <form ">
+
+                <div class=" row mb-2 "> <strong><p>Saved cards:</p></strong></div>
+                <div class=" row mb-4 ">
+                    
+                    
+                    <div class=" col-8 d-flex "> 
+                     <span><i class=" fa-brands fa-cc-mastercard payimg me-3 "></i></span>
+                     <label for="input1" class="position-absolute" style="margin-top: -1.1rem !important; margin-left: 77px">
+                        <span class="h6 small bg-white text-muted px-1 ">Card Number</span>
+                     </label>
+                    <input type=" password" class="form-control " placeholder="**** **** ****3193">
+                    </div>
+
+                  <div class="col-4 text-center fw-bold"><a href="" class="textdeco">Remove card</a></div>
+
+                </div>
+
+
+
+
+              <div class=" row mb-5 ">
+
+
+               <div class=" col-8 d-flex ">
+                <span><i class="fa-brands fa-cc-visa payimg me-3"></i></span>
+
+                    <label for="input1" class="position-absolute" style="margin-top: -1.1rem !important; margin-left: 77px">
+                        <span class="h6 small bg-white text-muted px-1 ">Card Number</span>
+                    
+                    </label>
+                <input type=" password" class="form-control " placeholder="**** **** ****4296">
+               </div>
+
+               <div class="col-4 text-center textdeco fw-bold"><a href="" class="textdeco">Remove card</a></div>
+
+
+              </div>
+
+             <div class=" row mb-2 "> <strong><p>Add new card:</p> </strong></div>
+
+
+             <div class=" row mb-4 ">
+
+
+                <div class=" col d-flex ">
+                    <label for="input1" class="position-absolute" style="margin-top: -1.1rem !important; margin-left: 10px">
+                        <span class="h6 small bg-white text-muted px-1 ">Cardholder's Name</span>
+                     </label>
+                    <input type=" text" class="form-control ">
+                 </div>
+
+
+              </div>
+
+
+             <div class=" row mb-4 ">
+
+
+               <div class=" col-6 d-flex ">
+                   <label for="input1" class="position-absolute" style="margin-top: -1.1rem !important; margin-left: 10px">
+                        <span class="h6 small bg-white text-muted px-1 ">Card Number</span>
+                     </label>
+                  <input type=" number" class="form-control ">
+                </div>
+
+                <div class=" col-3 d-flex ">
+                     <label for="input1" class="position-absolute" style="margin-top: -1.1rem !important; margin-left: 10px">
+                        <span class="h6 small bg-white text-muted px-1 ">Expire</span>
+                     </label>
+                   <input type="date" class="form-control ">
+                </div>
+
+                <div class=" col-3 d-flex ">
+                      <label for="input1" class="position-absolute" style="margin-top: -1.1rem !important; margin-left: 10px">
+                        <span class="h6 small bg-white text-muted px-1 ">Cvv</span>
+                      </label>
+                  <input type="password" class="form-control " placeholder="****">
+                </div>
+
+             </div>
+
+
+             <div class=" col-12 text-center greenbutton rounded mb-2  ">
+             <button type="button" class="btn text-white fw-bold" data-bs-toggle="button">ADD Card</button>
+             </div>
+
+            </form>
+
+
+        </div>
+
+    </main>
+    <footer></footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
